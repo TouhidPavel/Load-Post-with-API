@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --bgColor: #000033;
+    --accentColor: #457AFF;
+    --currentBodyColor: #A0A1A1;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bgColor);
+    font-family: "Quicksand", sans-serif;
+}
+
+footer p {
+    color: white;
+    padding-block: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s linear;
+}
+
+footer a:hover {
+    color: var(--accentColor);
+    text-decoration: underline;
+}
